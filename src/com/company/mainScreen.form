@@ -340,6 +340,15 @@
           <text value="Current Multiplier"/>
         </properties>
       </component>
+      <component id="bed08" class="javax.swing.JButton" binding="maxBetButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Max Bet"/>
+        </properties>
+      </component>
     </children>
   </grid>
 </form>

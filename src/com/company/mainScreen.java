@@ -49,6 +49,7 @@ public class mainScreen {
     private JLabel multiLabel;
     private JButton restartButton;
     private JButton resetMoneyButton;
+    private JButton maxBetButton;
 
 
     public mainScreen() {
@@ -1421,6 +1422,12 @@ public class mainScreen {
                 finalMoneyLeft.setText(String.valueOf(money[0]));
                 resetMoneyButton.setEnabled(false);
 
+            }
+        });
+        maxBetButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                a0TextField.setText(String.valueOf(money[0]));
             }
         });
     }
